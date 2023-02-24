@@ -1,0 +1,196 @@
+* {
+    font-family: verdana, arial, sans-serif;
+    line-height: 1.5;
+}
+
+.wrapper{
+   width: 1280px; 
+   
+}
+
+p{
+    text-align: center;
+}
+
+body {
+    background-color: #e2ca9f;
+}
+
+header, footer{
+    justify-content: center; 
+}
+
+header {
+    height: 150px;
+    background-color: #592202;
+    color: #f2a25c;
+    text-align: center;
+}
+
+nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    background-color: #f2a25c;
+    padding: 20px;
+    width: 150px;
+}
+
+
+nav a {
+    display: inline;
+    text-decoration: none;
+    color: #592202;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #f2a25c;
+}
+
+nav a:hover{
+    background-color: #e9edf2;
+}
+
+#content-container{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#menu{
+    background-color: #592202;
+    color: #f2a25c;
+}
+
+a{
+    color:#f2a25c
+}
+
+.grid-container-element {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+.grid-child-element {
+    margin: 10px; 
+    border: 1px solid red; 
+  }
+
+chef.jpg {
+    width: 25px;
+    height: auto;
+}
+
+local.jpg {
+    width: 25px;
+    height: auto;
+}
+
+dumpling.png {
+    width: 25px;
+    height: auto;
+}
+
+form {
+	width: 350px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	background: #f28705;
+	padding: 16px;
+	border-radius: 4px;
+}
+
+.form-center {
+	display: flex;
+	justify-content: center;
+}
+
+input, label, select, textarea {
+	display: block;
+	width: 100%;
+}
+
+
+label {
+	margin-right: 0;
+	margin-left: 16px;
+	margin-bottom: 4px;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+
+input, select, textarea {
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 24px;
+	border-radius: 4px;
+	inset: 1px;
+	border: #196774
+}
+
+fieldset {
+	margin-bottom: 24px;
+	border-radius: 4px;
+	border-color: #c6ce83;
+	grid-template-columns: 1fr;
+	row-gap: 8px;
+}
+
+legend {
+	font-weight: bold;	
+}
+
+fieldset label {
+	margin-left: 0;
+}
+
+button {
+	background-color: #c6ce83;
+	border: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: -6px 6px 10px #363432;
+	width: 100%;
+}
+
+.btn-container {
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
+
+input:invalid, select:invalid, textarea:invalid { 
+	border: solid 4px #EF6024;
+	box-shadow: -6px 6px 10px #363432;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline: 3px solid #8f9da6;
+}
+
+button:focus {
+	outline: 3px solid #EF6024;
+}
+
+button:hover {
+	box-shadow: -3px 3px 5px #363432;
+}
